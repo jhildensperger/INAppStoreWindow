@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.summary		= 'Mac App Store style NSWindow subclass.'
     s.homepage		= 'https://github.com/indragiek/INAppStoreWindow'
     s.author		= { 'Indragie Karunaratne' => 'i@indragie.com' }
-    s.source_files	= 'INAppStoreWindow'
+	s.source_files	= '*.{h,m}'
     s.source		= { :git => 'https://github.com/indragiek/INAppStoreWindow.git', :tag => 'v1.4' }
     s.platform		= :osx
     s.requires_arc	= true
